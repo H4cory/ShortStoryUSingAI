@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Change as needed */
+  }
+  
+  .start-page {
+    text-align: center;
+  }
+  
+  .start-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px solid white; /* Change border color as needed */
+    background-color: transparent;
+    color: white; /* Change text color as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+  }
+  

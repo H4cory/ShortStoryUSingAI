@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .content {
+    position: relative;
+    padding-top: 50px; /* Adjust as needed */
+  }
+  
+  .background-image {
+    background-image: url('../Places/Cults_Fortres/Cult_Fort.png'); /* Specify your background image */
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .text-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(62, 62, 62, 0.314); /* Adjust opacity as needed */
+  }
+  
+  .story-text {
+    text-align: justify;
+    color:white;
+    font-size: 20pt;
+  }
+  
+  .character-image {
+    width: 50%; 
+    height: 50%; 
+    border-radius: 50%; 
+    display: block; 
+    margin: 0 auto;
+  }
+
+  .next-page{
+    text-decoration: none;
+  }
+
+  .next-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 20pt;
+    text-decoration: none;
+  }
+  
+  .next-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(167, 167, 167, 0.5);
+    padding: 10px;
+  }
+  
+  .footer-text {
+    text-align: center;
+  }
+  
